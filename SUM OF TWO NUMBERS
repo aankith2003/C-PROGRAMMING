@@ -1,0 +1,15 @@
+//write a c program to add two numbers.
+#include<stdio.h>
+int main()
+{
+int a,b,sum;
+printf("Enter numbers");
+scanf("%d%d",&a,&b);
+sum=a+b;
+printf("Sum of two numbers is %d",sum);
+return 0;
+}
+OUTPUT
+Enter numbers_
+_
+Sum of two numbers is _
