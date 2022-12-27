@@ -1,0 +1,14 @@
+//Write a c program to calculate sum of first n natural numbers.
+#include<stdio.h>
+int main()
+{
+int n,sum;
+printf("Enter sum up to n numbers");
+scanf("%d",&n);
+sum=(n*(n+1)/2);
+printf("The sum of n natural numbers is %d",sum);
+return 0;
+}
+OUTPUT 
+Enter sum up to n numbers_
+The sum of n natural numbers is _
