@@ -1,0 +1,23 @@
+//Write a c program for simple interest?
+#include<stdio.h>
+int main()
+{
+float Principal,Rate,Time,Totalamount,Simpleinterest;
+printf("Enter Principal Amount");
+scanf("%f",&Principal);
+printf("Enter Rate");
+scanf("%f",&Rate);
+printf("Enter Time");
+scanf("%f",&Time);
+Totalamount=(Principal*(1+Rate*Time));
+printf("Total Amount Obtained is %f\n",Totalamount);
+Simpleinterest=(Principal*Rate*Time)/100;
+printf("Simple interest obtained is %f",Simpleinterest);
+return 0;
+}
+OUTPUT
+Enter Principal Amount_
+Enter Rate_
+Enter Time_
+Total Amount Obtained is _
+Simple interest obtained is _
