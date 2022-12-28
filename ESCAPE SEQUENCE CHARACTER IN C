@@ -19,8 +19,7 @@ How ar
 e you?
 what's your plan
 n launguage?Do you know pytho
-
-
+EXTRA
 #Here output after \r shows different because of \v(vertical tab).Below we can see output when we cannot use \r in line13.
 OUTPUT
 Hi,
