@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+float BS,HRA,TA,DA,other;
+printf("input value of basic salary BS=");
+scanf("%f",&BS);
+HRA=0.18*BS;
+printf("value of HRA is %f\n",HRA); 
+TA=0.03*BS;
+printf("Salary of TA is %f\n",TA);
+DA=0.06*BS;
+printf("Salary of DA is %f\n",DA);
+other=0.05*BS;
+printf("Salary of Others is %f",other);
+return 0;
+}
+OUTPUT
+input value of basic salary BS=_
+value of HRA is _
+Salary of TA is _
+Salary of DA is _
+Salary of Others is _
