@@ -1,0 +1,21 @@
+//ESCAPE SEQUENCE CHARACTER IN C
+#include<stdio.h>
+int main()
+{
+printf("Hi,\nHow ar\ne yo\au?");
+printf("\nwhat's your plan\v for to\tday.\b?");
+//Alarm-\a
+//Backspace-\b
+//New line-\n
+//Carriage return-\r
+//Horizontal tab-\t
+//Verical tab-\v
+printf("Do you know pytho\rn launguage");
+return 0;
+}
+OUTPUT
+Hi,
+How ar
+e you?
+what's your plan
+n launguage?Do you know pytho
