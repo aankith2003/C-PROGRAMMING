@@ -1,0 +1,29 @@
+//Default Value
+#include<iostream>
+using namespace std;
+int area_of_rec(int length=8, int breadth=6)
+{
+    return length*breadth;
+}
+float area_of_circle(float radius=5)
+{
+    return 3.14*radius*radius;
+}
+int main()
+{
+    int length=5;
+    int breadth=4;
+    float radius=10;
+    cout<<"Area of Rectangle is(Default value)";
+    cout<<area_of_rec();
+     cout<<"\n";
+    cout<<"Area of Rectangle is";
+    cout<<area_of_rec(length,breadth);
+     cout<<"\n";
+    cout<<"Area of circle is(Default value)";
+    cout<<area_of_circle();
+     cout<<"\n";
+    cout<<"Area of circle is";
+    cout<<area_of_circle(radius);
+}
+
